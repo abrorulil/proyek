@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: pengantar
+- file: linkgraphscraping
+- file: crawlingdata
+  sections:
+  - file: crawlingberita
+  - file: crawlingptatrunojoyo
+  - file: ptatrunojoyomanajemen
+- file: preprocessing_abstrak_indonesia
+  title: Preprocessing Abstrak Indonesia
+
+- file: ekstraksi_fitur_tfidf_abstrak
+  title: Ekstraksi Fitur TF-IDF Abstrak
+
+- file: cbow_embeding_abstrak
+  title: CBOW Embedding Abstrak
+
+- file: preprocessing_berita
+  title: Preprocessing Berita
+
+- file: ekstraksi_fitur_tfidf_berita
+  title: Ekstraksi Fitur TF-IDF Berita
+
+- file: cbow_embeding_berita
+  title: CBOW Embedding Berita
+
+- file: klasifikasi_lda_berita
+  title: Klasifikasi LDA Berita
+
+- file: klasifikasi_lda_abstrak 
+  title: Klasifikasi LDA Abstrak
+

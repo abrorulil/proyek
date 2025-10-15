@@ -1,0 +1,6 @@
+# Virtual Environment
+venv/
+
+# Python cache & Jupyter checkpoints
+__pycache__/
+.ipynb_checkpoints/
