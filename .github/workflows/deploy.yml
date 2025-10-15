@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+      
+# --- TAMBAHKAN BAGIAN INI ---
+permissions:
+  contents: write
+# ---------------------------
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
