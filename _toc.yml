@@ -1,4 +1,3 @@
-# Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
@@ -13,30 +12,21 @@ chapters:
   - file: ptatrunojoyomanajemen
 - file: preprocessing_abstrak_indonesia
   title: Preprocessing Abstrak Indonesia
-
 - file: ekstraksi_fitur_tfidf_abstrak
   title: Ekstraksi Fitur TF-IDF Abstrak
-
 - file: cbow_embeding_abstrak
   title: CBOW Embedding Abstrak
-
 - file: preprocessing_berita
   title: Preprocessing Berita
-
 - file: ekstraksi_fitur_tfidf_berita
   title: Ekstraksi Fitur TF-IDF Berita
-
 - file: cbow_embeding_berita
   title: CBOW Embedding Berita
-
 - file: klasifikasi_lda_berita
   title: Klasifikasi LDA Berita
-
-- file: klasifikasi_lda_abstrak 
+- file: klasifikasi_lda_abstrak
   title: Klasifikasi LDA Abstrak
-
-- file : klasifikasi_berita_nb_dan_svm
-  title : Klasifikasi Berita dg classifier NB & SVM 
-
-- file : ClusterEmail
-  title : Clustering pada data Email
+- file: klasifikasi_berita_nb_dan_svm
+  title: Klasifikasi Berita dg classifier NB & SVM
+- file: ClusterEmail
+  title: Clustering pada data Email
