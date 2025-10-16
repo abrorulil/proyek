@@ -36,7 +36,7 @@ chapters:
   title: Klasifikasi LDA Abstrak
 
 - file : klasifikasi_berita_nb_dan_svm
-  tittle : Klasifikasi Berita dg classifier NB & SVM 
+  title : Klasifikasi Berita dg classifier NB & SVM 
 
 - file : ClusterEmail
-  tittle : Clustering pada data Email
+  title : Clustering pada data Email
