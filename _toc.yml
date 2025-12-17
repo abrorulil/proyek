@@ -30,3 +30,11 @@ chapters:
   title: Klasifikasi Berita (NB & SVM)
 - file: ClusterEmail
   title: Clustering Data Email
+- file: Word_Graph
+  title: Analisis Word Graph
+- file: webusage
+  title: Web Usage Mining
+- file: Pagerank2
+  title: Algoritma PageRank
+- file: graphlnk
+  title: Graph Link Analysis
