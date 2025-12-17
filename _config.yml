@@ -1,39 +1,25 @@
 # Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
-
-title: My sample book
-author: The Jupyter Book Community
+title: Proyek Analisis Data & Machine Learning  # Ganti dengan judul pilihan Anda
+author: Abror Ulil                          # Ganti dengan nama Anda
 logo: pp.png
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
+# Pengaturan Eksekusi
 execute:
-  # execute_notebooks: force
-  execute_notebooks: "off"
+  execute_notebooks: "off"  # Tetap "off" agar build lebih cepat jika notebook sudah di-run
 
-# Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
-
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
-
-# Information about where the book exists on the web
+# Konfigurasi Repositori (BAGIAN PALING PENTING)
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  url: https://github.com/abrorulil/proyek  # URL repositori Anda
+  path_to_book: .                           # Titik (.) karena notebook Anda ada di folder utama
+  branch: main                              # Branch sumber Anda adalah main
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+# Fitur HTML
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_navbar: |
+    <a href="https://abrorulil.github.io/proyek/intro.html">Halaman Utama</a>
 
-# _config.yml
-
-
+# File yang diabaikan
 exclude:
   - tugas/references.bib
