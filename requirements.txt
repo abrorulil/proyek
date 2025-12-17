@@ -8,3 +8,4 @@ sastrawi
 networkx
 beautifulsoup4
 requests
+PyPDF2
