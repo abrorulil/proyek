@@ -5,7 +5,7 @@ logo: pp.png
 
 # Pengaturan Eksekusi
 execute:
-  execute_notebooks: "off"  # Tetap "off" agar build lebih cepat jika notebook sudah di-run
+  execute_notebooks: "auto"  # Tetap "off" agar build lebih cepat jika notebook sudah di-run
 
 # Konfigurasi Repositori (BAGIAN PALING PENTING)
 repository:
