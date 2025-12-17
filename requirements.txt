@@ -1,3 +1,10 @@
 jupyter-book
 matplotlib
 numpy
+pandas
+scikit-learn
+nltk
+sastrawi
+networkx
+beautifulsoup4
+requests
